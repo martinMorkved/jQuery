@@ -1,5 +1,7 @@
-$("h1").text("Bye");
+$("h1").click(function () {
+    $("h1").css("color", "purple");
+});
 
-$("button").text("This is a button");
-
-$("a").attr("href", "https://www.yahoo.com");
+$("button").click(function () {
+    $("button").text("I don't work");
+});
